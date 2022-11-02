@@ -1,0 +1,7 @@
+/labs/practice
+
+Download VPN Package after connection to portal
+sudo openvpn file.ovpn 
+
+Panel Widget for VPN IP
+bash -c "echo -n 'Tun0 '; /sbin/ifconfig tun0 | grep -w inet | awk '{print $2}'" 
